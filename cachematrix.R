@@ -1,4 +1,6 @@
-##Create the matrix object that can house the inverse
+##Set of functions that will take a matrix in and output the inverse matrix of that matrix. 
+
+##Create the object that can house the inverse of a matrix
 makeCacheMatrix <- function(m = matrix()){
     ##Create an empty inverse vector
     inv <- NULL
